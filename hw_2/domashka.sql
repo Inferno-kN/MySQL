@@ -63,7 +63,7 @@ SELECT `Курс`, COUNT(*) FROM `Students_table`
 
 
 SELECT `Пол`, AVG(`Средний балл`) FROM `Students_table`
-	GROUP BY st.`пол`;
+	GROUP BY `пол`;
 
 
 SELECT MAX(`Средний балл`)` FROM `Students_table`
